@@ -9,7 +9,6 @@ import MyBookings from './pages/MyBookings'
 import Layout from './pages/Owner/Layout';
 import Dashboard from './pages/Owner/Dashboard';
 import AddCar from './pages/Owner/AddCar';
-// import BookingsManage from './pages/Owner/BookingsManageookingsManage';
 import CarsManage from './pages/Owner/CarsManage'
 import Bookingsss from './pages/Owner/Bookingsss'
 
