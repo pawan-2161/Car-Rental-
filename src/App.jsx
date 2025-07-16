@@ -10,7 +10,7 @@ import Layout from './pages/Owner/Layout';
 import Dashboard from './pages/Owner/Dashboard';
 import AddCar from './pages/Owner/AddCar';
 import CarsManage from './pages/Owner/CarsManage'
-import Bookingsss from './pages/Owner/Bookingsss'
+import BookingsManage from './pages/Owner/BookingsManage'
 
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
           <Route index element={<Dashboard/>} />
           <Route path="add-car" element={<AddCar />} />
           <Route path="cars-manage" element={<CarsManage/>} />
-          <Route path="bookingsss" element={<Bookingsss/>} />
+          <Route path="manage-booking" element={<BookingsManage/>} />
         </Route>
       </Routes>
 

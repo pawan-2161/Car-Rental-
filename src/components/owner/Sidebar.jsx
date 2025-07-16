@@ -20,7 +20,7 @@ const Sidebar = () => {
 
         <div className='group relative'>
             <label htmlFor="image">
-                <img src={image ? URL.createObjectURL(image) : user?.image || "https://images.unsplash.com/..." } alt="" />
+                <img src={image ? URL.createObjectURL(image) : user?.image || "https://images.unsplash.com/..." } alt="" className='h-9 md:h-14 w-9 md:w-14 rounded-full mx-auto'/>
                 <input type="file" id='image' accept='image/*' hidden onChange={e=>setImage(e.target.files[0])} />
 
                 <div className='absolute hidden top-0 right-0 left-0 bottom-0 bg-black/10 rounded-full group-hover:flex items-center justify-center  cursor-pointer'>
