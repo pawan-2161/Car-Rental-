@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { assets, dummyDashboardData } from '../../assets/assets';
-import Title from '../../components/owner/Title';
+import Title1 from '../../components/owner/Title1';
 
 const Dashboard = () => {
   
@@ -30,7 +30,7 @@ const Dashboard = () => {
   
   return (
     <div className='px-4 pt-10 md:px-10 flex-1'>
-       <Title title="Admin Dashboard" subTitle="Monitor overall platform performance including total cars, bookings, revenue, and recent activities" />
+       <Title1 title="Admin Dashboard" subTitle="Monitor overall platform performance including total cars, bookings, revenue, and recent activities" />
 
       <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-8 max-w-3xl'>
           {DashboardCards.map((card, index)=>(

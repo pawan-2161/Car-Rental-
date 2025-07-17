@@ -40,6 +40,12 @@ import car_image1 from "./car_image1.png"
 import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
+import car_image5 from "./car_image5.png"
+import car_image6 from "./car_image6.png"
+import car_image7 from "./car_image7.png"
+import car_image8 from "./car_image8.png"
+import car_image9 from "./car_image9.png"
+import car_image10 from "./car_image10.png"
 
 export const cityList = ['Surat', 'Mumbai', 'Delhi', 'Ahmedabad', 'Pune']
 
@@ -85,7 +91,13 @@ export const assets = {
     user_profile,
     car_image2,
     car_image3,
-    car_image4
+    car_image4,
+    car_image5,
+    car_image6,
+    car_image7,
+    car_image8,
+    car_image9,
+    car_image10
 }
 
 export const menuLinks = [
@@ -115,13 +127,13 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "BMW",
         "model": "X5",
-        "image": car_image1,
+        "image": car_image5,
         "year": 2006,
         "category": "SUV",
-        "seating_capacity": 4,
-        "fuel_type": "Hybrid",
+        "seating_capacity": 7,
+        "fuel_type": "Petrol & CNG",
         "transmission": "Semi-Automatic",
-        "pricePerDay": 300,
+        "pricePerDay": 2500,
         "location": "Surat",
         "description": "The BMW X5 is a mid-size luxury SUV produced by BMW. The X5 made its debut in 1999 as the first SUV ever produced by BMW.",
         "isAvaliable": true,
@@ -132,7 +144,7 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "Toyota",
         "model": "Corolla",
-        "image": car_image2,
+        "image": car_image6,
         "year": 2021,
         "category": "Sedan",
         "seating_capacity": 4,
@@ -149,7 +161,7 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "Jeep ",
         "model": "Wrangler",
-        "image": car_image3,
+        "image": car_image7,
         "year": 2023,
         "category": "SUV",
         "seating_capacity": 4,
@@ -166,7 +178,41 @@ export const dummyCarData = [
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "brand": "Ford",
         "model": "Neo 6",
-        "image": car_image4,
+        "image": car_image8,
+        "year": 2022,
+        "category": "Sedan",
+        "seating_capacity": 2,
+        "fuel_type": "Diesel",
+        "transmission": "Semi-Automatic",
+        "pricePerDay": 209,
+        "location": "Delhi",
+        "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-17T06:15:47.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e34",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Ford",
+        "model": "Neo 6",
+        "image": car_image9,
+        "year": 2022,
+        "category": "Sedan",
+        "seating_capacity": 2,
+        "fuel_type": "Diesel",
+        "transmission": "Semi-Automatic",
+        "pricePerDay": 209,
+        "location": "Delhi",
+        "description": "This is a mid-size luxury sedan produced by Toyota. The Corolla made its debut in 2008 as the first sedan ever produced by Toyota.",
+        "isAvaliable": true,
+        "createdAt": "2025-04-17T06:15:47.318Z",
+    },
+    {
+        "_id": "68009c93a3f5fc6338ea7e34",
+        "owner": "67fe3467ed8a8fe17d0ba6e2",
+        "brand": "Ford",
+        "model": "Neo 6",
+        "image": car_image10,
         "year": 2022,
         "category": "Sedan",
         "seating_capacity": 2,
